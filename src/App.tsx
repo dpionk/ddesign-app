@@ -1,11 +1,15 @@
-import { Wrapper } from "./App.styled";
-import PageTitle from "./components/atoms/PageTitle";
+import { GlobalStyle, Wrapper } from "./App.styled";
+import Nav from "./components/organisms/Nav";
 
 function App() {
-
-  return <Wrapper>
-    <PageTitle>Title</PageTitle>
-  </Wrapper>
+  return (
+    <>
+      <GlobalStyle />
+      <Wrapper>
+        <Nav />
+      </Wrapper>
+    </>
+  );
 }
 
 export default App;
