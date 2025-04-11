@@ -14,5 +14,6 @@ export const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   height: 100%;
+  padding: 1rem 2rem;
   background-color: var(--background-color);
 `;
