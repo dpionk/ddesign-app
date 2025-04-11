@@ -2,6 +2,9 @@ import styled from "styled-components";
 
 export const ProductCategoryButtonWrapper = styled.div`
   position: absolute;
+  display: flex;
+  justify-content: center;
+  width: 100%;
   transform: translate(-50%, -50%) scale(1);
   top: 50%;
   left: 50%;
@@ -9,6 +12,10 @@ export const ProductCategoryButtonWrapper = styled.div`
   transition: all 0.3s ease;
   z-index: 1;
   pointer-events: none;
+
+  button {
+    width: 80%;
+  }
 `;
 
 export const ProductCategoryImageStyled = styled.img`
@@ -22,8 +29,6 @@ export const ProductCategoryImageStyled = styled.img`
 
 export const ProductCategoryWrapper = styled.div`
   position: relative;
-  height: 400px;
-  width: 400px;
   &:hover {
     cursor: pointer;
   }
