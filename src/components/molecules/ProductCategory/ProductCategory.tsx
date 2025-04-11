@@ -1,7 +1,7 @@
 import Button from "@components/atoms/Button";
 import {
   ProductCategoryButtonWrapper,
-  ProductCategoryImage,
+  ProductCategoryImageStyled,
   ProductCategoryWrapper,
 } from "./ProductCategory.styled";
 
@@ -13,7 +13,7 @@ type TProductCategoryProps = {
 const ProductCategory = ({ imageUrl, name }: TProductCategoryProps) => {
   return (
     <ProductCategoryWrapper>
-      <ProductCategoryImage src={imageUrl} alt={name} />
+      <ProductCategoryImageStyled src={imageUrl} alt={name} />
       <ProductCategoryButtonWrapper>
         <Button text={name} />
       </ProductCategoryButtonWrapper>

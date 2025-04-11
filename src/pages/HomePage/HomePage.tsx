@@ -1,10 +1,8 @@
-import PageTitle from "@components/atoms/PageTitle"
+import HomeView from "@components/organisms/HomeView";
 
 const HomePage = () => {
     return (
-        <PageTitle>
-            Home
-        </PageTitle>
+        <HomeView/>
     );
 }
 

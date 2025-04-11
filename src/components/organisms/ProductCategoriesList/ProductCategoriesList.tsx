@@ -1,4 +1,4 @@
-import ProductCategory from "@components/atoms/ProductCategory";
+import ProductCategory from "@components/molecules/ProductCategory";
 import { Category } from "@types/category";
 import { ProductCategoriesListWrapper } from "./ProductCategoriesList.styled";
 

@@ -1,6 +1,5 @@
 import PageTitle from "@components/atoms/PageTitle";
-import ProductCategory from "@components/atoms/ProductCategory";
-import ProductCategoriesList from "@components/molecules/ProductCategoriesList";
+import ProductCategoriesList from "@components/organisms/ProductCategoriesList";
 
 const ProductsPage = () => {
   return (

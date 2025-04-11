@@ -8,10 +8,10 @@ export const ProductCategoryButtonWrapper = styled.div`
   opacity: 0;
   transition: all 0.3s ease;
   z-index: 1;
-  pointer-events: none;s
+  pointer-events: none;
 `;
 
-export const ProductCategoryImage = styled.img`
+export const ProductCategoryImageStyled = styled.img`
   height: 100%;
   width: 100%;
   object-fit: cover;
@@ -22,8 +22,8 @@ export const ProductCategoryImage = styled.img`
 
 export const ProductCategoryWrapper = styled.div`
   position: relative;
-  height: 364px;
-  width: 364px;
+  height: 400px;
+  width: 400px;
   &:hover {
     cursor: pointer;
   }

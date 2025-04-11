@@ -8,6 +8,9 @@ export const GlobalStyle = createGlobalStyle`
   --secondary-color: #735e59;
   --tertiary-color: #878a8b;
   }
+  * {
+  text-decoration: none;
+  }
 `;
 
 export const Wrapper = styled.div`

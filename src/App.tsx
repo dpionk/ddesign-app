@@ -5,15 +5,13 @@ import Nav from "@components/organisms/Nav";
 
 function App() {
   return (
-    <>
-      <GlobalStyle />
-      <Wrapper>
-        <Nav />
-        <Router>
+      <Router>
+        <GlobalStyle />
+        <Wrapper>
+          <Nav />
           <AppRoutes />
-        </Router>
-      </Wrapper>
-    </>
+        </Wrapper>
+      </Router>
   );
 }
 
