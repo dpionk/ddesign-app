@@ -1,4 +1,4 @@
-import PageTitle from "../../atoms/PageTitle"
+import PageTitle from "@components/atoms/PageTitle"
 
 const HomePage = () => {
     return (
