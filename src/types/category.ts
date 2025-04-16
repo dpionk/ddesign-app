@@ -1,5 +1,5 @@
-export type Category = {
-  id: number;
+export type TCategory = {
+  id: string;
   imageUrl: string;
   name: string;
 };

@@ -11,7 +11,6 @@ export const ProductCategoryButtonWrapper = styled.div`
   opacity: 0;
   transition: all 0.3s ease;
   z-index: 1;
-  pointer-events: none;
 
   button {
     width: 80%;
@@ -36,5 +35,9 @@ export const ProductCategoryWrapper = styled.div`
     opacity: 1;
     transition: all 0.3s ease;
     transform: translate(-50%, -50%) scale(1);
+  }
+
+  &:hover img {
+  opacity: 0.6;
   }
 `;

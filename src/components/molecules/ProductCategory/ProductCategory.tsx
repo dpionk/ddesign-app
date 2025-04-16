@@ -1,18 +1,26 @@
+import { useNavigate } from "react-router-dom";
 import Button from "@components/atoms/Button";
 import {
   ProductCategoryButtonWrapper,
   ProductCategoryImageStyled,
   ProductCategoryWrapper,
 } from "./ProductCategory.styled";
+import { TCategory } from "@types/category";
 
 type TProductCategoryProps = {
-  imageUrl: string;
-  name: string;
+  category: TCategory;
 };
 
-const ProductCategory = ({ imageUrl, name }: TProductCategoryProps) => {
+const ProductCategory = ({ category }: TProductCategoryProps) => {
+  const { id, name, imageUrl } = category;
+  const navigate = useNavigate();
+
+  const handleCategoryClick = () => {
+    navigate(`/categories/${id}`);
+  };
+
   return (
-    <ProductCategoryWrapper>
+    <ProductCategoryWrapper onClick={handleCategoryClick}>
       <ProductCategoryImageStyled src={imageUrl} alt={name} />
       <ProductCategoryButtonWrapper>
         <Button text={name} />
