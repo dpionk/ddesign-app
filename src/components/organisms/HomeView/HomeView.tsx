@@ -13,7 +13,7 @@ const HomeView = () => {
           <div>Home,</div>
           <div>Designed</div>
         </PageTitle>
-        <Link to="/products">
+        <Link to="/categories">
         <Button text="Search our products" />
         </Link>
       </div>

@@ -1,13 +1,13 @@
 import PageTitle from "@components/atoms/PageTitle";
 import ProductCategoriesList from "@components/organisms/ProductCategoriesList";
 
-const ProductsPage = () => {
+const ProductCategoriesPage = () => {
   return (
     <>
-      <PageTitle>Products</PageTitle>
+      <PageTitle>Categories</PageTitle>
       <ProductCategoriesList />
     </>
   );
 };
 
-export default ProductsPage;
+export default ProductCategoriesPage;
