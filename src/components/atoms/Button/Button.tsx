@@ -3,7 +3,7 @@ import { ButtonStyled } from "./Button.styled";
 
 type TButtonProps = {
   text: string;
-  onClick: () => void;
+  onClick?: () => void;
   children?: ReactNode;
 };
 

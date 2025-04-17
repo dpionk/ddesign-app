@@ -21,9 +21,6 @@ export const ProductCategoryImageStyled = styled.img`
   height: 100%;
   width: 100%;
   object-fit: cover;
-  &:hover {
-    opacity: 0.6;
-  }
 `;
 
 export const ProductCategoryWrapper = styled.div`
