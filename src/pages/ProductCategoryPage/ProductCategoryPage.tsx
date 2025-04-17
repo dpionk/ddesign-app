@@ -1,10 +1,15 @@
 import PageTitle from "@components/atoms/PageTitle";
+import DropdownButton from "@components/molecules/DropdownButton";
 import ProductList from "@components/organisms/ProductList";
+import { PageTitleWithButtonStyled } from "./ProductCategoryPage.styled";
 
 const ProductCategoryPage = () => {
   return (
     <>
-      <PageTitle>Flowers</PageTitle>
+      <PageTitleWithButtonStyled>
+        <PageTitle>Flowers</PageTitle>
+        <DropdownButton text="sort" />
+      </PageTitleWithButtonStyled>
       <ProductList />
     </>
   );
