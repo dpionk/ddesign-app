@@ -6,10 +6,11 @@ export const ProductListStyled = styled.div`
   grid-template-rows: repeat(autofill, 1fr);
   gap: 16px;
 
-  img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
+  @media (max-width: 768px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @media (max-width: 480px) {
+    grid-template-columns: repeat(2, 1fr);
   }
 `;
-  

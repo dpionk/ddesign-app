@@ -1,6 +1,5 @@
 import PageTitle from "@components/atoms/PageTitle";
 import {
-  ProductViewImageStyled,
   ProductViewInfoWrapper,
   ProductViewWrapper,
 } from "./ProductView.styled";
@@ -18,7 +17,7 @@ const ProductView = () => {
 
   return (
     <ProductViewWrapper>
-      <ProductViewImageStyled src={product.imageUrl} alt={product.name} />
+      <img src={product.imageUrl} alt={product.name} />
       <ProductViewInfoWrapper>
         <PageTitle>{product.name}</PageTitle>
         <Button text="Add to basket" />

@@ -40,9 +40,7 @@ export const ProductCategoryWrapper = styled.div`
 `;
 
 export const ProductCategoryImageStyled = styled.img`
-  width: 100%;
   height: 100%;
-  object-fit: cover;
   display: block;
   transition: all 0.3s ease;
 `;

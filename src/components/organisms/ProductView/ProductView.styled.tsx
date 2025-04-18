@@ -1,12 +1,6 @@
 import PageTitle from "@components/atoms/PageTitle";
 import styled from "styled-components";
 
-export const ProductViewImageStyled = styled.img`
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-`;
-
 export const ProductViewWrapper = styled.div`
   margin-top: 32px;
   display: grid;

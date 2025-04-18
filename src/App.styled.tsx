@@ -16,6 +16,12 @@ export const GlobalStyle = createGlobalStyle`
   background-color: var(--background-color);
   }
 
+  img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
   * {
   text-decoration: none;
   }

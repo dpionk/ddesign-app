@@ -15,10 +15,7 @@ export const HomeViewWrapper = styled.div`
 
 export const HomeViewImageStyled = styled.img`
   aspect-ratio: 1 / 1;
-  height: auto;
-  width: 100%;
   max-width: 500px;
-  object-fit: cover;
 
   @media (max-width: 768px) {
     max-width: 300px;

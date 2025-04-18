@@ -1,6 +1,5 @@
 import { useNavigate } from "react-router-dom";
 import {
-  ProductInListImageStyled,
   ProductInListInfo,
   ProductInListWrapper,
 } from "./ProductInList.styled";
@@ -14,7 +13,7 @@ const ProductInList = ({ product }: TProductInListProps) => {
   const { name, imageUrl } = product;
   return (
     <ProductInListWrapper onClick={() => navigate(`/products/${product.id}`)}>
-      <ProductInListImageStyled src={imageUrl} alt={name} />
+      <img src={imageUrl} alt={name} />
       <ProductInListInfo>
         <div>{name}</div>
       </ProductInListInfo>
