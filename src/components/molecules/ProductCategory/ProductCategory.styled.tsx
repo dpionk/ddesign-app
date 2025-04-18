@@ -18,7 +18,7 @@ export const ProductCategoryButtonWrapper = styled.div`
 `;
 
 export const ProductCategoryImageStyled = styled.img`
-  height: 100%;
+  height: auto;
   width: 100%;
   object-fit: cover;
 `;
@@ -35,6 +35,6 @@ export const ProductCategoryWrapper = styled.div`
   }
 
   &:hover img {
-  opacity: 0.6;
+    opacity: 0.6;
   }
 `;

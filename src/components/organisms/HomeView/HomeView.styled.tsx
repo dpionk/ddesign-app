@@ -2,12 +2,29 @@ import styled from "styled-components";
 
 export const HomeViewWrapper = styled.div`
   margin-top: 32px;
-  display: flex;
+  display: grid;
+  grid-gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   align-items: center;
-  gap: 5rem;
+
+  @media (max-width: 768px) {
+    text-align: center;
+    justify-items: center;
+  }
 `;
 
 export const HomeViewImageStyled = styled.img`
-  height: 520px;
-  width: 520px;
+  aspect-ratio: 1 / 1;
+  height: auto;
+  width: 100%;
+  max-width: 500px;
+  object-fit: cover;
+
+  @media (max-width: 768px) {
+    max-width: 300px;
+  }
+
+  @media (max-width: 480px) {
+    max-width: 250px;
+  }
 `;

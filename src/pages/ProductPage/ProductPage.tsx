@@ -1,9 +1,6 @@
+import ProductView from "@components/organisms/ProductView";
+
 export const ProductPage = () => {
-  return (
-    <div>
-      <h1>Product Page</h1>
-      <p>This is the product page.</p>
-    </div>
-  );
+  return <ProductView />;
 };
 export default ProductPage;
